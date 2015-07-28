@@ -18,13 +18,13 @@
 import numpy as np
 import matplotlib.pyplot as plt
 from os import system
-import scipy.interpolate
+#import scipy.interpolate
 import math
-from mpl_toolkits.mplot3d import Axes3D
-from matplotlib import cm
-import matplotlib as mpl
+#from mpl_toolkits.mplot3d import Axes3D
+#from matplotlib import cm
+#import matplotlib as mpl
 import sys
-
+from barymp import *
 
 verbose = 0
 normalize = int(sys.argv[1])
